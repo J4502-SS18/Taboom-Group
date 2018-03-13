@@ -35,13 +35,13 @@ h1 {
 #container2{
   width: 100%;
   margin: 10%;
-
 }
 
 #container3{
   background-color:#f68e56;
   width: 90%;
   margin: 0 auto;
+
 }
 
 #nav {
@@ -56,7 +56,7 @@ h1 {
 	font-weight:bold;
 	display: block;
 	text-decoration: none;
-	text-align: left;
+	text-align: right;
 	font-family: "Allerta Stencil", sans-serif;
 	padding: 5px;
 }
@@ -81,7 +81,7 @@ img {
 }
 
 .bt {
-  width: 80px;
+  width: 1260px;
   height: 50px;
   border: 1px; solid:#f68e56;
   background-color: #f68e56;
@@ -89,6 +89,7 @@ img {
 
 .ct {
   display: none;
+  width: 1260px;
 
 }
 
