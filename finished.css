@@ -4,19 +4,32 @@ p {
 	color: #000000;
 		font-family: "Josefin Slab", serif;
 		text-align: left;
-    font-size: 0.2em;
+    font-size: 0.7em;
+    margin-left: 30%;
+    margin-right: 10%;
 }
 
 h1 {
   color:#f68e56;
     font-family: "IM Fell English SC", serif;
 		text-align: left;
-		font-size:1em;
+		font-size:2em;
+    margin-left: 10%;
 }
 
 #container1{
-    width: 50%;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
+}
+
+#content{
+  float:right;
+  width:60%;
+}
+
+#head{
+  float:left;
+  width:40%;
 }
 
 #container2{
@@ -27,10 +40,12 @@ h1 {
 
 #container3{
   background-color:#f68e56;
+  width: 90%;
+  margin: 0 auto;
 }
 
 #nav {
-    padding: 0;
+    padding: 0px;
 	  list-style-type: none;
     margin: none;
 }
@@ -74,6 +89,7 @@ img {
 
 .ct {
   display: none;
+
 }
 
 .dt {
@@ -86,12 +102,12 @@ img {
 
 .dt1 {
   height: auto;
-  margin-top: 1px;
+  margin-top: 0px;
   border: 1px solid:#f68e56;
   background-color:#f68e56;
   padding: auto 10px;
 }
 
-.dt:hover{background-color: #f68e56}
+.dt:hover, .dt1{background-color: #f68e56}
 .bt:hover{background-color:#f68e56;}
 .at:hover .ct{display: inline-block;}
