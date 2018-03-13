@@ -2,15 +2,13 @@
 .header {
   overflow: hidden;
   background-color: #ffb450;
-  padding: 20px 10px;
 }
 
 /* Style the header links */
 .header a {
   float: left;
   color: black;
-  text-align: center;
-  padding: 12px;
+
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
@@ -53,12 +51,14 @@
 }
 Try it Yourself »
 
-
+.topnav {
+    background-color: #ffb450;
+    overflow: hidden;
+}
 /* Add a black background color to the top navigation */
 
-
 .container {
-    display: inline-block;
+    text-align: right;
     cursor: pointer;
 }
 
@@ -86,6 +86,7 @@ Try it Yourself »
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
+
 
 .icon-bar {
     width: 100%; /* Full-width */
