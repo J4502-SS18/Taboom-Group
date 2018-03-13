@@ -1,8 +1,17 @@
 h1 {
   font-family: 'Josefin Sans', sans-serif;
     color: black;
-    text-align: center;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 50px;
+    text-decoration: underline;
 }
+
+ p {
+   padding-left: 15px;
+   border-right: 15px;
+   font-family: 'Raleway', sans-serif;
+ }
 
 
 /* Style the header with a grey background and some padding */
