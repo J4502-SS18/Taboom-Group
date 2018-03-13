@@ -58,7 +58,7 @@ Try it Yourself »
 /* Add a black background color to the top navigation */
 
 .container {
-    text-align: right;
+    float: right;
     cursor: pointer;
 }
 
