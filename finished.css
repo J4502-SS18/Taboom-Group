@@ -24,12 +24,13 @@ h1 {
 
 #content{
   float:right;
-  width:50%;
+  width:70%;
 }
 
 #head{
   float:left;
   width:30%;
+	display: block;
 }
 
 /*
