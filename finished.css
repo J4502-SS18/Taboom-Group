@@ -5,6 +5,7 @@ p {
 		font-family: "Times New Roman", serif;
 		text-align: left;
     font-size: 1em;
+    margin-left: 20%;
     margin-right: 20%;
 }
 
@@ -53,6 +54,7 @@ h1 {
 #container3{
   background-color:#ffb450;
   width: 85%;
+	height:80%;
   margin: 0 auto;
 
 }
