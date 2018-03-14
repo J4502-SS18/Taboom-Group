@@ -26,9 +26,8 @@ h1 {
 }
 
 #container1{
-    width: 80%;
+    width: 100%;
 		overflow: auto;
-		margin-left:10%;
 }
 
 #content{
@@ -58,19 +57,17 @@ h1 {
 
 #container2{
   width: 100%;
-  margin: 10%;
 }
 
 #container3{
   background-color:#ffb450;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 
 }
 
 #photo{
 	width: 45%;
-	height:40%;
 }
 
 #nav {
