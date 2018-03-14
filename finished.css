@@ -13,7 +13,7 @@ p {
 
 h1 {
   color:white;
-    font-family: "Unica One", serif;
+    font-family: "Unica One", sans-serif;
 		text-align: left;
 		font-size:2em;
     margin-left: 10%;
@@ -85,8 +85,9 @@ img {
 .bt {
   width: 1260px;
   height: 50px;
-  border: 1px; solid:#f68e56;
-  background-color: #f68e56;
+  border: 1px;
+	solid:#f8bb9b;
+  background-color: #f8bb9b;
 }
 
 .ct {
@@ -98,21 +99,21 @@ img {
 .dt {
   height: auto;
   margin-top: 0px;
-  border: 1px; solid:#f68e56;
-  backgroung-color:#f68e56;
+  border: 1px solid:#f8bb9b;
+  background-color: #f8bb9b;
   padding: auto 10px;
 }
 
 .dt1 {
   height: auto;
   margin-top: 0px;
-  border: 1px solid:#f68e56;
-  background-color:#f68e56;
+  border: 1px solid:#f8bb9b;
+  background-color:#f8bb9b;
   padding: auto 10px;
 }
 
-.dt:hover, .dt1{background-color: #f68e56}
-.bt:hover{background-color:#f68e56;}
+.dt:hover, .dt1{background-color: #f8bb9b}
+.bt:hover{background-color:#f8bb9b;}
 .at:hover .ct{display: inline-block;}
 
 .responsive {
