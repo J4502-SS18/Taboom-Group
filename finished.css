@@ -26,8 +26,9 @@ h1 {
 }
 
 #container1{
-    width: 100%;
+    width: 80%;
 		overflow: auto;
+		margin-left:10%;
 }
 
 #content{
@@ -62,18 +63,14 @@ h1 {
 
 #container3{
   background-color:#ffb450;
-<<<<<<< HEAD
-  width: 85%;
-	height:80%;
-=======
-  width: 100%;
->>>>>>> 70e675f14f32bf6d12a1fc359aa66675d0eac190
+  width: 80%;
   margin: 0 auto;
 
 }
 
 #photo{
 	width: 45%;
+	height:40%;
 }
 
 #nav {
@@ -90,7 +87,7 @@ h1 {
 	text-decoration: none;
 	text-align: right;
 	font-family: 'Unica One', cursive;
-	padding: 5px;
+	padding: 2px;
 	font-size: 30px;
 }
 
@@ -101,7 +98,7 @@ h1 {
 
 img {
 	border: none;
-	margin: 0 auto;
+	margin-left:10%;
 	width: 85%
 }
 
