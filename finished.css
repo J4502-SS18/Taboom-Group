@@ -1,4 +1,6 @@
-/*styles go here*/
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+</style>
 
 p {
 	color: #000000;
@@ -11,7 +13,7 @@ p {
 
 h1 {
   color:#f68e56;
-    font-family: "IM Fell English SC", serif;
+    font-family: "Unica One", serif;
 		text-align: left;
 		font-size:2em;
     margin-left: 10%;
@@ -112,3 +114,8 @@ img {
 .dt:hover, .dt1{background-color: #f68e56}
 .bt:hover{background-color:#f68e56;}
 .at:hover .ct{display: inline-block;}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
