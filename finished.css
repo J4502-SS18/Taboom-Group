@@ -33,6 +33,7 @@ h1 {
 #content{
   float:right;
   width:70%;
+	margin-right: 5%;
 }
 
 #head{
@@ -93,10 +94,14 @@ h1 {
 	font-size: 25px;
 }
 
-img {
+div img {
 	border: none;
 	margin-left:10%;
-	width: 85%
+	width: 35%
+}
+
+body img{
+	margin-left:10%;
 }
 
 .icon-bar {
@@ -117,5 +122,5 @@ img {
 }
 
 .icon-bar a:hover {
-    background-color: #ffffff; /* Add a hover color */
+    background-color: #ffd399; /* Add a hover color */
 }
