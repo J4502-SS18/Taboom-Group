@@ -75,7 +75,7 @@ img {
     grid-template-areas:
 "f f f f"
 				"b b b b"
-        "c c c ."
+        "c c c c"
 				"g g . ."
         "d d d d";
   }
