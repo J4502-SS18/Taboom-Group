@@ -15,6 +15,10 @@ p {
 >>>>>>> 70e675f14f32bf6d12a1fc359aa66675d0eac190
 }
 
+nav {
+	font-weight: bold;
+}
+
 nav ul {
   display: flex;
   flex-flow: column;

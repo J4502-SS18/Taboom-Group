@@ -17,6 +17,9 @@ img {
 	width: 45%;
 }
 
+nav {
+	font-weight: bold;
+}
 
 body {
 	font-size: 1em;

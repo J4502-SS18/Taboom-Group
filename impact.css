@@ -134,6 +134,9 @@ nav ul {
 		padding: 10px;
 	}
 
+	nav {
+		font-weight: bold;
+	}
 
 /* Add a black background color to the top navigation */
 
