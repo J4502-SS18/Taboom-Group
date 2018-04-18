@@ -1,0 +1,79 @@
+.container {
+	display: flex; /*reverses row to run RTL along the horizontal axis*/
+	flex-direction: column; }
+
+
+
+@media (min-width: 600px) {
+
+
+	.authorbox {
+		width: 25%;
+		max-width: 200px;
+		float: left;
+		margin-right: 20px;
+	}
+
+
+}
+@media (min-width: 800px) {
+
+	.item-1 {
+		margin-right: auto;
+	}
+	.pullquote {
+		display: block;
+	}
+}
+@media screen and (min-width:1000px) {
+  article {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "f f f"
+				"b b b"
+        "c c ."
+				"a a a"
+        "d d d";
+  }
+
+  .section1 {
+    grid-area: b;
+  }
+
+  .image {
+    grid-area: c;
+  }
+
+  .section2 {
+    grid-area: d;
+  }
+
+	.title1 {
+    grid-area: f;
+  }
+  .title2 {
+    grid-area: a;
+  }
+
+
+  .section1 p:first-of-type, .section2 p:first-of-type {
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (min-width:1200px) {
+  article {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+"f f f f"
+				"b b b b"
+        "c c c ."
+				"g g . ."
+        "d d d d";
+  }
+}

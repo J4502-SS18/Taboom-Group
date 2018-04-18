@@ -1,26 +1,46 @@
 h1 {
   font-family: 'Josefin Sans', sans-serif;
     color: black;
-    text-align: left;
-    padding-left: 30px;
-    font-size: 3rem;
+
+    font-size: 2rem;
     text-decoration: underline;
 }
+img {
+  width:100%;
 
+}
 h2{
-  padding-left: 40px;
+
+}
+
+body {
+	font-size: 1em;
+	font-family: 'Merriweather Sans', sans-serif;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
  p {
-   padding-left: 40px;
-   border-right: 15px;
+
    font-family: 'Raleway', sans-serif;
    font-size: 1rem;
    line-height: 1.5rem;
  }
+ .image {
+     width: 70%;
+         margin-right: 10px;
+     }
 
-header logo{
-  order: 2
+ #footer{
+   color: #aca66a;
+   font-family: Georgia, "Times New Roman", serif;
+   font-style: italic;
+   font-size: 0.8em;
+   border-top: 1px solid #aca66a;
+ }
+
+.logo{
+  order: 1
 }
 /* Style the header with a grey background and some padding */
 nav ul li {
@@ -37,7 +57,7 @@ nav a {
     padding: 20px 30px;
 }
 
-.header {
+header1 {
   background-color: #ffb450;
   display: flex;
   flex-flow: row;
@@ -51,6 +71,15 @@ nav a {
     font-size: 1.75em;
     width: 2em;
 }
+header1 logo {
+    order: 2;
+    width:40%;
+}
+
+nav ul {
+    display: none;
+}
+
 
 /* Style the header links */
 
@@ -64,7 +93,7 @@ nav a {
 /* Float the link section to the right */
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 700px) {
   nav ul {
       display: flex;
   }
@@ -77,21 +106,68 @@ nav a {
       display: none;
   }
 
-  .header {
-      order: 1;
-  }
 
-  header logo{
-    order: 2
+  header h1{
+    order: 1;
+    display:inline-block;
   }
   nav {
-      order: 1;
+      order: 2;
+  }
+}
+  .wrapper {
+      display: flex;
+      flex-flow: row wrap;
+  }
+  .title {
+    display: flex;
+    justify-content: space-between;
   }
 
-}
+  header, article, aside, footer {
+    flex: 1 100%;
+    padding: 10px;
+  }
+
 
 /* Add a black background color to the top navigation */
 
+@media (min-width:800px) {
+
+    aside {
+        flex: 1 auto;
+    }
+
+    article {
+			display: flex;
+		flex: 5 0px;
+	}
+
+    .aside-1 {
+        order: 3;
+    }
+
+    article {
+        order: 4;
+    }
+
+    .aside-2 {
+        order: 5;
+    }
+
+    footer {
+        order: 6;
+    }
+    article {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+    .image {
+        width:70%;
+						margin-right: 10px;
+				}
+    }
 
 
 
