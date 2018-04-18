@@ -1,0 +1,218 @@
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+		color: black;
+
+		font-size: 2rem;
+		text-decoration: underline;
+}
+img {
+	width:100%;
+
+}
+h2{
+
+}
+
+img {
+ width: 45%;
+}
+
+
+body {
+ font-size: 1em;
+ font-family: 'Merriweather Sans', sans-serif;
+ padding-left: 5%;
+ padding-right: 5%;
+}
+
+ p {
+
+	 font-family: 'Raleway', sans-serif;
+	 font-size: 1rem;
+	 line-height: 1.5rem;
+ }
+ .image {
+		 width: 70%;
+				 margin-right: 10px;
+		 }
+
+ #footer{
+	 color: #aca66a;
+	 font-family: Georgia, "Times New Roman", serif;
+	 font-style: italic;
+	 font-size: 0.8em;
+	 border-top: 1px solid #aca66a;
+ }
+
+.logo{
+	order: 1
+}
+/* Style the header with a grey background and some padding */
+nav ul li {
+		display: block;
+		border-top: 1px #79896d solid;
+}
+nav ul {
+		display: none;
+}
+nav a {
+		color: #f8ecc2;
+		display: block;
+		text-decoration: none;
+		padding: 20px 30px;
+}
+
+header1 {
+	background-color: #ffb450;
+	display: flex;
+	flex-flow: row;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.menu-trigger {
+		order: 1;
+		font-family:'Unica One',cursive;
+		font-size: 1.75em;
+		width: 2em;
+}
+header1 logo {
+		order: 2;
+		width:40%;
+}
+
+nav ul {
+		display: none;
+}
+
+
+/* Style the header links */
+
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+
+
+/* Change the background color on mouse-over */
+
+
+/* Float the link section to the right */
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (min-width: 700px) {
+	nav ul {
+			display: flex;
+	}
+
+	nav ul li {
+			border-top: none;
+	}
+
+	.menu-trigger {
+			display: none;
+	}
+
+
+	header h1{
+		order: 1;
+		display:inline-block;
+	}
+	nav {
+			order: 2;
+	}
+}
+	.wrapper {
+			display: flex;
+			flex-flow: row wrap;
+	}
+	.title {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	header, article, aside, footer {
+		flex: 1 100%;
+		padding: 10px;
+	}
+
+
+/* Add a black background color to the top navigation */
+
+@media (min-width:800px) {
+
+		aside {
+				flex: 1 auto;
+		}
+
+		article {
+		 display: flex;
+	 flex: 5 0px;
+ }
+
+		.aside-1 {
+				order: 3;
+		}
+
+		article {
+				order: 4;
+		}
+
+		.aside-2 {
+				order: 5;
+		}
+
+		footer {
+				order: 6;
+		}
+		article {
+				display: flex;
+				flex-flow: row;
+				flex-wrap: wrap;
+		}
+		.image {
+				width:70%;
+					 margin-right: 10px;
+			 }
+		}
+
+
+
+.dot {
+	height: 25px;
+	width: 25px;
+	background-color: #bbb;
+	border-radius: 50%;
+	float:left;
+	margin-left: 20px
+}
+
+
+
+.icon-bar {
+		width: 100%; /* Full-width */
+		background-color: #ffb450; /* Dark-grey background */
+		overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+		float: left; /* Float links side by side */
+		text-align: center; /* Center-align text */
+		width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+		padding: 12px 0; /* Some top and bottom padding */
+		transition: all 0.3s ease; /* Add transition for hover effects */
+		color: black; /* White text color */
+		font-size: 36px; /* Increased font size */
+		border-radius: 50%;
+}
+
+.icon-bar a:hover {
+		background-color: #ddd; /* Add a hover color */
+}
+
+.fa {
+		padding: 20px;
+		font-size: 30px;
+		width: 30px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 50%;
+}
