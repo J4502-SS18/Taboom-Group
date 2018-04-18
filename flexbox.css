@@ -14,6 +14,9 @@
 		margin-right: 20px;
 	}
 
+img {
+		width: 45%;
+	}
 
 }
 @media (min-width: 800px) {
