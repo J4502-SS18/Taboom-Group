@@ -8,10 +8,15 @@
 }
 
 img {
+<<<<<<< HEAD
+margin:auto;
+margin-right: 10px;
+=======
   width: auto;
   max-width: 100%;
   height: auto;
 	margin-left:10%;
+>>>>>>> 6c6cdf2ece6c96b2d1ba733bbf4e5f3d275c6e42
 }
 
 body {
