@@ -1,9 +1,20 @@
 /*styles go here*/
+<<<<<<< HEAD
+.map{
+	display:none;
+}
+
+.globe{
+	display:none;
+}
+
+=======
 img {
   width: auto;
   max-width: 100%;
   height: auto;
 }
+>>>>>>> f28a5afbc5bf1f257c46ed32c328b0cd4eab962c
 
 body {
 	font-size: 1.3em;
@@ -34,6 +45,7 @@ p {
 
 nav {
 	font-weight: bold;
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 nav ul {
@@ -81,9 +93,6 @@ nav ul {
 }
 
 @media screen and (min-width: 700px){
-	.map {
-		display: block;
-	}
 
     nav ul {
         display: flex;
@@ -105,6 +114,15 @@ nav ul {
         order: 2;
     }
 
+		.map {
+	      display: block;
+	      width: 100%;
+	      margin-top: 0.5em;
+	    }
+
+			.globe {
+				display: none;
+			}
 }
 
 
