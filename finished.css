@@ -1,21 +1,99 @@
 /*styles go here*/
 
+body {
+	font-size: 1.3em;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
 p {
-	color: #959595;
+	color: #000000;
 <<<<<<< HEAD
 		font-family: "Times New Roman", serif;
 		text-align: left;
     font-size: 1em;
-    margin-left: 20%;
-    margin-right: 20%;
 =======
 		font-family: 'Raleway', sans-serif;
-		text-align: right;
-    font-size: 10px;
+		text-align: left;
+    font-size: 16px;
     margin-right: 10px;
 		padding-left: 40px;
->>>>>>> 70e675f14f32bf6d12a1fc359aa66675d0eac190
 }
+
+#photo{
+	width: 75%;
+	display:flex;
+	flex-flow: row;
+}
+
+#link{
+	display:flex;
+}
+
+nav {
+	font-weight: bold;
+}
+
+nav ul {
+  display: none;
+  flex-flow: column;
+}
+
+@media screen and (min-width: 450px) {
+
+    nav ul {
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+}
+
+nav ul li {
+    display: flex;
+    border-top: 1px #79896d solid;
+}
+
+nav a {
+    color: #f8ecc2;
+    display: flex;
+    text-decoration: none;
+    padding: 10px 30px;
+
+}
+
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+nav ul {
+    display:flex;
+}
+
+@media screen and (min-width: 700px){
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        border-top: none;
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+    header h1 {
+        order: 1;
+    }
+
+    nav {
+        order: 2;
+    }
+
+}
+
 
 h1 {
   color:#ffb450;
@@ -23,6 +101,14 @@ h1 {
 		text-align: left;
 		font-size:70px;
     margin-left: 15%;
+}
+
+h2 {
+	color:#ffb450;
+		font-family: 'Unica One', cursive;
+		text-align: left;
+		font-size:20px;
+		margin-left: 15%;
 }
 
 #container1{
@@ -67,16 +153,13 @@ h1 {
 
 }
 
-#photo{
-	width: 45%;
-}
 
 #nav {
     padding: 0;
 	  list-style-type: none;
     margin: none;
 }
-
+/*
 #nav a:link, #nav a:visited {
 	color: #ffffff;
 	background-color:#ffd399;
@@ -93,11 +176,16 @@ h1 {
 	background-color:#ffb450;
 	font-size: 25px;
 }
+*/
 
 div img {
 	border: none;
-	margin-left:10%;
-	width: 35%
+	margin-left:5%;
+	width: 55%
+}
+
+div link {
+display:flex;
 }
 
 body img{
