@@ -1,7 +1,22 @@
 /*styles go here*/
+.map{
+	display:none;
+}
+
+.globe{
+	display:none;
+}
+
 img {
+<<<<<<< HEAD
 margin:auto;
 margin-right: 10px;
+=======
+  width: auto;
+  max-width: 100%;
+  height: auto;
+	margin-left:10%;
+>>>>>>> 6c6cdf2ece6c96b2d1ba733bbf4e5f3d275c6e42
 }
 
 body {
@@ -33,6 +48,7 @@ p {
 
 nav {
 	font-weight: bold;
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 nav ul {
@@ -77,12 +93,10 @@ nav ul {
 	display: block;
 	width: 100%;
 	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 @media screen and (min-width: 700px){
-	.map {
-		display: block;
-	}
 
     nav ul {
         display: flex;
@@ -104,6 +118,15 @@ nav ul {
         order: 2;
     }
 
+		.map {
+	      display: block;
+	      width: 100%;
+	      margin-top: 0.5em;
+	    }
+
+			.globe {
+				display: none;
+			}
 }
 
 
@@ -120,7 +143,8 @@ h2 {
 		font-family: 'Unica One', cursive;
 		text-align: left;
 		font-size:20px;
-		margin-left: 15%;
+		margin-left: 25%;
+		margin-right:10%;
 }
 
 #container1{
