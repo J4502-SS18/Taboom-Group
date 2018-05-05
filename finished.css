@@ -1,5 +1,4 @@
 /*styles go here*/
-<<<<<<< HEAD
 .map{
 	display:none;
 }
@@ -8,13 +7,11 @@
 	display:none;
 }
 
-=======
 img {
   width: auto;
   max-width: 100%;
   height: auto;
 }
->>>>>>> f28a5afbc5bf1f257c46ed32c328b0cd4eab962c
 
 body {
 	font-size: 1.3em;
