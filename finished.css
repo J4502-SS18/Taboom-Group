@@ -1,4 +1,9 @@
 /*styles go here*/
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
 
 body {
 	font-size: 1.3em;
@@ -44,6 +49,7 @@ nav ul {
         flex-flow: row;
         justify-content: space-between;
     }
+
 
 }
 
@@ -180,16 +186,11 @@ h2 {
 
 div img {
 	border: none;
-	margin-left:5%;
 	width: 55%
 }
 
 div link {
 display:flex;
-}
-
-body img{
-	margin-left:10%;
 }
 
 .icon-bar {
