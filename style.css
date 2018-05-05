@@ -1,3 +1,6 @@
+photo{
+  max-width: 40%;
+}
 h1 {
   font-family: 'Josefin Sans', sans-serif;
     color: black;
@@ -19,13 +22,6 @@ img {
 
 nav {
 	font-weight: bold;
-}
-
-body {
-	font-size: 1em;
-	font-family: 'Merriweather Sans', sans-serif;
-	padding-left: 5%;
-	padding-right: 5%;
 }
 
  p {
@@ -52,7 +48,7 @@ body {
 }
 /* Style the header with a grey background and some padding */
 nav ul li {
-    display: block;
+    display:block;
     border-top: 1px #79896d solid;
 }
 nav ul {
@@ -74,13 +70,13 @@ header1 {
 }
 
 .menu-trigger {
-    order: 1;
+    order: 2;
     font-family:'Unica One',cursive;
     font-size: 1.75em;
     width: 2em;
 }
 header1 logo {
-    order: 2;
+    order: 1;
     width:30%;
 }
 

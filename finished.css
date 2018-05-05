@@ -1,5 +1,10 @@
 /*styles go here*/
 
+body {
+	font-size: 1.3em;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
 p {
 	color: #000000;
 <<<<<<< HEAD
@@ -12,7 +17,16 @@ p {
     font-size: 16px;
     margin-right: 10px;
 		padding-left: 40px;
->>>>>>> 70e675f14f32bf6d12a1fc359aa66675d0eac190
+}
+
+#photo{
+	width: 75%;
+	display:flex;
+	flex-flow: row;
+}
+
+#link{
+	display:flex;
 }
 
 nav {
@@ -20,7 +34,7 @@ nav {
 }
 
 nav ul {
-  display: flex;
+  display: none;
   flex-flow: column;
 }
 
@@ -34,13 +48,13 @@ nav ul {
 }
 
 nav ul li {
-    display: block;
+    display: flex;
     border-top: 1px #79896d solid;
 }
 
 nav a {
     color: #f8ecc2;
-    display: block;
+    display: flex;
     text-decoration: none;
     padding: 10px 30px;
 
@@ -53,7 +67,7 @@ nav a {
 }
 
 nav ul {
-    display: none;
+    display:flex;
 }
 
 @media screen and (min-width: 700px){
@@ -139,9 +153,6 @@ h2 {
 
 }
 
-#photo{
-	width: 35%;
-}
 
 #nav {
     padding: 0;
@@ -169,8 +180,12 @@ h2 {
 
 div img {
 	border: none;
-	margin-left:10%;
-	width: 35%
+	margin-left:5%;
+	width: 55%
+}
+
+div link {
+display:flex;
 }
 
 body img{
