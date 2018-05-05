@@ -12,11 +12,9 @@ body {
 
 p {
 	color: #000000;
-<<<<<<< HEAD
 		font-family: "Times New Roman", serif;
 		text-align: left;
     font-size: 1em;
-=======
 		font-family: 'Raleway', sans-serif;
 		text-align: left;
     font-size: 16px;
@@ -76,7 +74,16 @@ nav ul {
     display:flex;
 }
 
+.globe {
+	display: block;
+	width: 100%;
+	margin-top: 0.5em;
+}
+
 @media screen and (min-width: 700px){
+	.map {
+		display: block;
+	}
 
     nav ul {
         display: flex;
