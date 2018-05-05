@@ -1,4 +1,5 @@
 /*styles go here*/
+<<<<<<< HEAD
 .map{
 	display:none;
 }
@@ -7,6 +8,13 @@
 	display:none;
 }
 
+=======
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+>>>>>>> f28a5afbc5bf1f257c46ed32c328b0cd4eab962c
 
 body {
 	font-size: 1.3em;
@@ -37,6 +45,7 @@ p {
 
 nav {
 	font-weight: bold;
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 nav ul {
@@ -50,6 +59,7 @@ nav ul {
         flex-flow: row;
         justify-content: space-between;
     }
+
 
 }
 
@@ -201,16 +211,11 @@ h2 {
 
 div img {
 	border: none;
-	margin-left:5%;
 	width: 55%
 }
 
 div link {
 display:flex;
-}
-
-body img{
-	margin-left:10%;
 }
 
 .icon-bar {
