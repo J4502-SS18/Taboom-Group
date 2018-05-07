@@ -334,6 +334,7 @@ article:last-of-type {
 
   .section1 {
     grid-area: b;
+		margin-top:20%;
   }
 
   .image {
